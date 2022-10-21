@@ -65,7 +65,7 @@ h5 {
 }
 
 .flex-container2 {
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* width: 700px; */
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ h5 {
 .resource {
     background-color: #E6E6E6 ;
     padding: 10px ;
-    width: 170px;
+    width: 212px;
     height: 39px;
     float: left;
     margin-top: 5px;
@@ -89,7 +89,7 @@ h5 {
 .resource2 {
     background-color: #E6E6E6 ;
     padding: 10px ;
-    width: 170px;
+    width: 212px;
     height: 39px;
     float: left;
     margin-top: 5px;
@@ -102,7 +102,8 @@ h5 {
 
 .flex-container3 {
     flex-wrap: wrap;
-    /* width: 700px; */
+    /* width: 350px; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
+    gap: 10px;
 }
