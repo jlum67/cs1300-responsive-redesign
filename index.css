@@ -18,6 +18,11 @@ h2:after
     float: left;
 }
 
+/* .newsimg {
+    width: "350";
+    height: "256";
+} */
+
 h4, h6, h5 {
     color: #810E0E;
 }
@@ -42,6 +47,13 @@ h4, h6, h5 {
 }
 
 .flex-container {
+    /* flex-wrap: wrap; */
+    /* width: 700px; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.flex-container6 {
     /* flex-wrap: wrap; */
     /* width: 700px; */
     display: flex;
@@ -130,6 +142,122 @@ h5 {
     color: #b16969;
 }
 
+@media all and (max-width: 3840px) and (min-width: 2560px) {
+
+    .news {
+        background-color: #E6E6E6 ;
+        padding: 60px;
+        width: 935px;
+        height: 694px;
+        float: left;
+    }
+
+    .txt {
+        font-size: 48px;
+        padding-bottom: 40px;
+    }
+
+    .space {
+        padding: 40px;
+        font-size: 64px;
+    }
+
+    h7 {
+        font-size: 32px;
+    }
+
+    .newsimg {
+        width: 935px;
+        height: 691px;
+    }
+
+    .small {
+        background-color: #E6E6E6 ;
+        padding: 20px;
+        width: 450px;
+        height: 285px;
+        float: left;
+    }
+
+    .smlimg {
+        width: 450px;
+        height: 285px;
+    }
+
+    .resource2 {
+        background-color: #E6E6E6 ;
+        padding: 10px ;
+        width: 610px;
+        height: 99px;
+        float: left;
+        margin-top: 5px;
+        /* margin-left: 2.5%; */
+    }
+
+    .resource {
+        background-color: #E6E6E6 ;
+        padding: 10px ;
+        width: 610px;
+        height: 99px;
+        float: left;
+        margin-top: 5px;
+    }
+
+    h2:after
+    {
+        content:' ';
+        display:block;
+        border:1px solid black;
+        width: 690px;
+    }
+
+    .request {
+        background-color: #E6E6E6 ;
+        padding: 10px ;
+        width: 883px;
+        height: 90px;
+        float: left;
+    }
+
+    p {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .reqimg {
+        width: 883px;
+        height: 346px;
+    }
+
+    .offs{
+        padding-left: 40px;
+        padding-top: 10px;
+    }    
+
+    .flex-container {
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 10px;
+    }
+
+    .right {
+        margin-top: 16px;
+        /* margin-left: 2.5%; */
+        float: left;
+    }
+}
+
+/* @media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 375px) {
+
+} */
+
+/* Test on a phone (~375x667px), a tablet (~768x1024px) and a large computer (~3840x2160px),  */
 
 
 
