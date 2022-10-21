@@ -120,3 +120,7 @@ h5 {
 /* .wrapper {
     display: inline;
 } */
+
+.txt:hover {
+    text-decoration: underline;
+}
