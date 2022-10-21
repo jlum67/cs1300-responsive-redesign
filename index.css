@@ -68,9 +68,18 @@ h5 {
     flex-wrap: wrap;
     /* width: 700px; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+.flex-container4 {
+    /* flex-wrap: wrap; */
+    /* width: 700px; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* justify-content: space-between; */
 }
 
 .space {
@@ -107,3 +116,7 @@ h5 {
     /* justify-content: space-between; */
     gap: 10px;
 }
+
+/* .wrapper {
+    display: inline;
+} */
