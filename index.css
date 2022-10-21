@@ -249,6 +249,39 @@ h5 {
     }
 }
 
+@media all and (max-width: 461px) {
+
+    .resource {
+        background-color: #E6E6E6 ;
+        padding: 15px ;
+        width: 165px;
+        height: 70px;
+        float: left;
+        margin-top: 5px;
+    }
+    
+    .resource2 {
+        background-color: #E6E6E6 ;
+        padding: 15px ;
+        width: 165px;
+        height: 70px;
+        float: left;
+        margin-top: 5px;
+        /* margin-left: 2.5%; */
+    }
+
+    .flex-container3 {
+        /* flex-wrap: wrap; */
+        /* width: 350px; */
+        display: flex;
+        justify-content: space-between;
+        /* gap: 10px; */
+    }
+
+
+}
+
+
 /* @media all and (max-width: 768px) {
 
 }
