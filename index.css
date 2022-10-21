@@ -37,7 +37,7 @@ h4, h6 {
 
 .right {
     margin-top: 26px;
-    /* margin-left: 20px; */
+    margin-left: 10px;
     float: left;
 }
 
@@ -45,5 +45,5 @@ h4, h6 {
     /* flex-wrap: wrap; */
     /* width: 700px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
