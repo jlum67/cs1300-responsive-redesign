@@ -124,7 +124,14 @@ h5 {
 .txt:hover {
     text-decoration: underline;
 }
+<<<<<<< HEAD
 
+=======
+
+.txt2 {
+    float: left;
+}
+>>>>>>> 754d99c11d456b00fb5718b88a354ac0678ccaa2
 
 
 
